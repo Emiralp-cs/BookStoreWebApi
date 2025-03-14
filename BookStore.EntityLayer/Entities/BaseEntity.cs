@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace BookStore.EntityLayer.Entities
 {
-    public class Category : BaseEntity
+    public abstract class BaseEntity
     {
-        public int CategoryId { get; set; }
-        public string CategoryName { get; set; }
     }
 }

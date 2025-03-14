@@ -12,7 +12,7 @@ namespace BookStore.DataAccessLayer.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=Fatih;inital catalog=ApiBookDb;integrated security=true;");
+            optionsBuilder.UseSqlServer("Server=Fatih;initial catalog=ApiBookDb;integrated security=true;");
         }
 
         public DbSet<Category> Categories { get; set; }
